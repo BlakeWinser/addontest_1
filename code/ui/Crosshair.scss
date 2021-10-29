@@ -1,0 +1,30 @@
+Crosshair {
+    height: 100%;
+
+    html, body {
+        height: 100%;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .flexContainer {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .crosshairItem {
+        background-color: cyan;
+        width: 6px;
+        height: 6px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100px;
+    }
+}
